@@ -11,6 +11,15 @@
 @interface Student : NSObject
 @property(nonatomic,copy)   NSString *firstname;
 @property(nonatomic,copy)   NSString *lastname;
+/**
+ *  <#Description#>
+ *
+ *  @param firstname <#firstname description#>
+ *  @param lastname  <#lastname description#>
+ *
+ *  @return <#return value description#>
+ */
 +(id)initStudentWithFirstname:(NSString *)firstname withLastname:(NSString *)lastname;
+
 -(NSComparisonResult)compareStudent:(Student *)stu;
 @end
