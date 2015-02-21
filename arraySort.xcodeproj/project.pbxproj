@@ -14,6 +14,7 @@
 		716482CC1A9899FE006F96D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716482CB1A9899FE006F96D8 /* Images.xcassets */; };
 		716482CF1A9899FE006F96D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716482CD1A9899FE006F96D8 /* LaunchScreen.xib */; };
 		716482DB1A9899FE006F96D8 /* arraySortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716482DA1A9899FE006F96D8 /* arraySortTests.m */; };
+		716482E61A989A11006F96D8 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 716482E51A989A11006F96D8 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		716482D41A9899FE006F96D8 /* arraySortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arraySortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716482D91A9899FE006F96D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716482DA1A9899FE006F96D8 /* arraySortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arraySortTests.m; sourceTree = "<group>"; };
+		716482E41A989A11006F96D8 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		716482E51A989A11006F96D8 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				716482CB1A9899FE006F96D8 /* Images.xcassets */,
 				716482CD1A9899FE006F96D8 /* LaunchScreen.xib */,
 				716482BE1A9899FE006F96D8 /* Supporting Files */,
+				716482E41A989A11006F96D8 /* Student.h */,
+				716482E51A989A11006F96D8 /* Student.m */,
 			);
 			path = arraySort;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				716482C71A9899FE006F96D8 /* ViewController.m in Sources */,
 				716482C41A9899FE006F96D8 /* AppDelegate.m in Sources */,
 				716482C11A9899FE006F96D8 /* main.m in Sources */,
+				716482E61A989A11006F96D8 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

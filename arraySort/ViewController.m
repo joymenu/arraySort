@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Student.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Student *stu1 = [Student initStudentWithFirstname:@"a" withLastname:@"b"];
+    Student *stu2 = [Student initStudentWithFirstname:@"c" withLastname:@"d"];
+    Student *stu3 = [Student initStudentWithFirstname:@"e" withLastname:@"f"];
+    
+    NSArray *array = [NSArray arrayWithObjects:stu1,stu2,stu3, nil];
+    
+    NSArray *sortArray = [array sortedArrayUsingSelector:@selector(compareStudent:)];
+    
+    NSLog(@"%@",sortArray);
 }
 
 - (void)didReceiveMemoryWarning {
